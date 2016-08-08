@@ -1,0 +1,76 @@
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+$bg-main-color: #fdfdfd;
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+    font-size: 1em;
+    background: url(jedi_temple.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  /*background: $bg-main-color;*/
+  line-height: 1.625;
+}
+
+h3, p, div {
+  text-align: center;
+}
+
+h3 {
+  text-transform: capitalize;
+  span {
+    text-transform: none;
+  }
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  background-color:  lightgray;
+  border:none;
+  padding : 10px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}
+
+  textarea {
+    width: 40%;
+    height: 50px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+}
+
+#transbox{
+  /*margin: 30px;*/
+  background-color: #ffffff;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+#output{
+  width: 40%;
+  height: 50px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+margin: 0 auto;
+
+}
